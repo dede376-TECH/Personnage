@@ -1,10 +1,9 @@
-package tourne.personnage;
+ package tourne.personnage ;
+ public class Personnage {
+      private String orientation = "NORD";
+       public String getOrientation(int fois ){
+           return "NORD";
+       }
 
 
-public class Personnage {
-    public String tourner(int fois) {
-        if (fois == 1) return "EST";
-        return "NORD";
-    }
-
-}
+ }
